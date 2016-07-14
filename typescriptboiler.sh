@@ -3,11 +3,8 @@
 #initialize package.json
 npm init -f
 
-#install typescript
-npm install -save typescript@beta -f
-
-#install typings
-npm install -save typings -f
+#install typescript, typings, tslint
+npm install --save tslint typescript@beta typings -f
 
 #init tsconfig.json
 ./node_modules/typescript/bin/tsc --init --target es2015 --noImplicitAny --noImplicitReturns --strictNullChecks --sourceMap --outDir ./output
