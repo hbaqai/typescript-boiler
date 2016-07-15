@@ -21,3 +21,6 @@ node_modules/.bin/typings install env~node --global --save
 #remove .git file so user can initialize this as a new git repo
 rm -rf .git
 
+#remove license file to keep from making MIT license a defualt for the new project
+rm -rf LICENSE
+
