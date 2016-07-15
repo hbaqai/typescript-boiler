@@ -16,5 +16,5 @@ mkdir -p .vscode
 node_modules/.bin/typings install env~node --global --save
 
 #remove .git file so user can initialize this as a new git repo
-#rm -rf .git
+rm -rf .git
 
