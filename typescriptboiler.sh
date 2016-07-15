@@ -3,6 +3,9 @@
 #initialize package.json
 npm init -f
 
+#remove any directory named typings already
+rm -rf typings
+
 #install typescript, typings, tslint
 npm install --save tslint typescript@beta typings -f
 
