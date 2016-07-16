@@ -24,6 +24,9 @@ rm -rf .git
 #remove license file to keep from making MIT license a defualt for the new project
 rm -rf LICENSE
 
+#remove the README file
+rm -rf README.md
+
 #remove this file
 rm -rf typescriptboiler.sh
 
